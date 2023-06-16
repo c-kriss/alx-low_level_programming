@@ -13,7 +13,7 @@ int main(void)
 		if ((i / 100) < ((i / 10) % 10) && ((i / 10) % 10) < (i % 10))
 		{
 			putchar(i / 100 + '0');
-			putchar(((i / 10) % 10 ) + '0');
+			putchar(((i / 10) % 10) + '0');
 			putchar(i % 10 + '0');
 		if (i < 789)
 			{
