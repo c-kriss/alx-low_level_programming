@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
-  * main - print "Letters"
-  * 
-  * Return: Always 0 (Success)
-  */
+ * main - print "Letters"
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char letter = 'a';
 
 	while (letter <= 'z')
 	{
-	putchar(letter);
-	letter++;
+		putchar(letter);
+		letter++;
 	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }	
