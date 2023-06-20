@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * Print alphaberts (a-z)
+ * print_alphabet
+ * Description: It prints alphabets
+ * Return: No returns
  */
 void print_alphabet(void)
 {
