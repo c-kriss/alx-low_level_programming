@@ -1,7 +1,8 @@
 #include "main.h"
-
 /**
  * islower - for alphabets
+ * @parameterc: print character
+ *
  * Description: It checks lower alphabets
  * Return: 0
  */
