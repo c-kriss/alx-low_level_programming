@@ -3,7 +3,7 @@
  * main - prints multiples of 3 & 5
  * Return: 0
  */
-int main()
+int main(void)
 {
 	static long int n1 = 1, n2 = 2, n3;
 	int i;
