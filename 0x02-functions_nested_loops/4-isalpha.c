@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * isalpha - for alphabets
+ * _isalpha - for alphabets
  * @c: print character
  *
  * Description: It checks alphabets

@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * abs - for absolute
- * Description: It prints int absolutes
- * Return: No returns
+ * _abs - for absolutes
+ * @num: provide number
+ *
+ * Description: It provide absolutes
+ * Return: num
+ * on match, Return -num
  */
 int _abs(int num)
 {

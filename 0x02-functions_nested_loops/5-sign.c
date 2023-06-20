@@ -2,8 +2,11 @@
 
 /**
  * print_sign - for signs
- * Description: It prints signs
- * Return: 1 0 -1
+ * @n: provide character
+ *
+ * Description: It prints number signs
+ * Return: 0
+ * On match, reutn 1, and -1
  */
 int print_sign(int n)
 {
