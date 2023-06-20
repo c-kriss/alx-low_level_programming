@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * islower - for alphabets
+ * _islower - for alphabets
  * @c: print character
  *
  * Description: It checks lower alphabets
