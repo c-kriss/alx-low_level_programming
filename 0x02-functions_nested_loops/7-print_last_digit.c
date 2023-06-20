@@ -10,6 +10,18 @@ int print_last_digit(int c)
 {
 	int r;
 
-	r = (c % 10);
+	if (r < 0)
+	{
+		c = -c;
+		r = (c % 10);
+	}
+	else
+	{
+		r = (c % 10);
+	}
+	if (r < 0)
+	{
+		r = -r;
+	}
 	return (r);
 }
