@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * add - for alphabets
- * @ab: print two numbers
- *
+ * @a: print two numbers
+ * @b: Add another digit
  * Description: It print natural numbers
  * Return: 0
  */
