@@ -3,29 +3,23 @@
  * main - prints multiples of 3 & 5
  * Return: 0
  */
-void fibo(int a)
-{
-	static int n1 = 1;
-	static int n2 = 2;
-	static int n3;
-
-	if (a > 0)
-	{
-		n3 = n1 + n2;
-		n1 = n2;
-		n2 = n3;
-		printf("%d", n3);
-		if (a != 1)
-		{
-			printf(", ");
-		}
-		fibo(a - 1);
-	}
-}
 int main()
 {
-	printf("%d, %d, ", 1, 2);
-	fibo(48);
+	static long int n1 = 1, n2 = 2, n3;
+	int i;
+
+	printf("%ld, %ld, ", n1, n2);
+		for (i = 1; i <= 48; i++)
+		{
+			n3 = n1 + n2;
+			n1 = n2;
+			n2 = n3;
+			printf("%ld", n3);
+			if (i != 48)
+			{
+				printf(", ");
+			}
+		}
 	printf("\n");
 	return (0);
 }
