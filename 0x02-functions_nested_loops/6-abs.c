@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * Print an absolute value
+ * abs - for absolute
+ * Description: It prints int absolutes
+ * Return: No returns
  */
 int _abs(int num)
 {

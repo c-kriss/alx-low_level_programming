@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * Check - if alphabet
+ * isalpha - for alphabets
+ * Description: It checks alphabets
+ * Return: 0
  */
 int _isalpha(int c)
 {

@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * Checks for lower case
+ * islower - for alphabets
+ * Description: It checks lower alphabets
+ * Return: 0
  */
 int _islower(int c)
 {
