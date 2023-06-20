@@ -1,10 +1,11 @@
 #include "main.h"
 /**
  * islower - for alphabets
- * @parameterc: print character
+ * @c: print character
  *
  * Description: It checks lower alphabets
  * Return: 0
+ * On match, return 1
  */
 int _islower(int c)
 {
