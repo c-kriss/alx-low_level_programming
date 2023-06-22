@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
  * main - causes an infinite loop
  * Return: 0
  */
 
-int main(void)
+int main(void) /* This part */
 {
 	int i;
 
@@ -15,7 +15,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);/* This part */
+		putchar(i);
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
