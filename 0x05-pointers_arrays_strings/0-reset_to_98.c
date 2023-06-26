@@ -2,8 +2,9 @@
 
 /**
  * reset_to_98 - reset int variable to 98
- * @n - pointer that do the reset
- * no return
+ * @n: pointer that do the reset
+ *
+ * Return: no return
  */
 void reset_to_98(int *n)
 {
