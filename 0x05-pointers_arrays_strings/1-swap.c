@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - reset int variable to 98
+ * swap_int - swap two integers
  * @a: An integer input pointer 1
  * @b: An integer input pointer 2
  *
