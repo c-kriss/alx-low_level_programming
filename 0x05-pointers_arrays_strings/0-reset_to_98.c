@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98 - reset int variable to 98
- * @n: pointer that do the reset
+ * reset_to_98 - takes and reset a pointer to 98
+ * @n: An integer input pointer
  *
  * Return: no return
  */
