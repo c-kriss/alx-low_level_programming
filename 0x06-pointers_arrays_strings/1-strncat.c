@@ -1,7 +1,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strcat - Function pointer to concatinate 2 strings
+ * _strncat - Function pointer to concatinate 2 strings
  * @dest: String input pointer
  * @src: String input pointer
  * @n: n bytes to be concatinated
