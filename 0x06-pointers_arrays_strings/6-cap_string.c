@@ -16,32 +16,26 @@ char *cap_string(char *c)
 			c[i] -= 32;
 			capitalize = 0;
 		}
-
 		else if (c[i] == ' ' || c[i] == '\t' || c[i] == '\n')
 		{
 			capitalize = 1;
 		}
-
 		else if (c[i] == ',' || c[i] == ';' || c[i] == '.')
 		{
 			capitalize = 1;
 		}
-
 		else if (c[i] == '!' || c[i] == '?' || c[i] == '\"')
 		{
 			capitalize = 1;
 		}
-
 		else if (c[i] == '(' || c[i] == ')' || c[i] == '{')
 		{
 			capitalize = 1;
 		}
-
 		else if (c[i] == '}')
 		{
 			capitalize = 1;
 		}
-
 		else
 		{
 			capitalize = 0;
