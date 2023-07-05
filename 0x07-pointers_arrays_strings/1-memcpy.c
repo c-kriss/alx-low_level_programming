@@ -2,8 +2,8 @@
 #include <string.h>
 /**
  * _memset - Function that fills memory with constant byte
- * @s: A string input pointer
- * @b: A string input pointer
+ * @dest: A string input pointer
+ * @src: A string input pointer
  * @n: Integer input variable
  * Return: s
  */
