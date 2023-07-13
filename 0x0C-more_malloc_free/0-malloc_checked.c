@@ -4,20 +4,17 @@
 /**
  * malloc_checked - Write a function that allocates memory using malloc.
  * @b: inputed Size to be allocated
- * Return: Nothing
+ * Return: void*
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *dmalloc = (int *)malloc(b * sizeof(int));
+	int *dmalloc = malloc(b);
 
 	if (dmalloc == NULL)
 	{
 		exit(98);
 	}
 
-	else
-	{
-		return (dmalloc);
-	}
+	return (dmalloc);
 }
