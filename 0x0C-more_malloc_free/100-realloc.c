@@ -26,7 +26,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 
-	newadd = (size_t *)malloc(new_size * sizeof(size_t));
+	newadd = (size_t *)malloc(new_size);
 
 	if (newadd == NULL)
 	{
