@@ -28,27 +28,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	len1 = strlen(s1);
 	len2 = strlen(s2);
-	nconcat = (char *)malloc((len1 + len2 + 1) * sizeof(char));
+
+	if (n >= len2)
+	{
+		n = len2;
+	}
+
+	nconcat = (char *)malloc((len1 + n + 1) * sizeof(char));
 
 	if (nconcat == NULL)
 	{
 		return (NULL);
 	}
 
-	else
-	{
-		if (n >= len2)
-		{
-			strcpy(nconcat, s1);
-			strcat(nconcat, s2);
-		}
+	strcpy(nconcat, s1);
+	strncat(nconcat, s2, n);
 
-		else
-		{
-			strcpy(nconcat, s1);
-			strncat(nconcat, s2, n);
-		}
-
-		return (nconcat);
-	}
+	return (nconcat);
 }
