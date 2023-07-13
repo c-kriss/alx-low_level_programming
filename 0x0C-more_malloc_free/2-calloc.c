@@ -25,7 +25,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	memset(myarray, 0, nmemb);
+	myarray = memset(myarray, 0, nmemb);
 
 	return (myarray);
 }
