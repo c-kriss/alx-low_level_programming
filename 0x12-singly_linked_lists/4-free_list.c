@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_list: frees list_s structure
+ * free_list - a function that frees a list_t list.
  * @head: input pointer to structure
  * Return: Nothing
  */
